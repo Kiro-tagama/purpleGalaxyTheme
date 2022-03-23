@@ -1,0 +1,29 @@
+{
+  "name": "purple-galaxy-theme",
+  "description": "dark theme",
+  "displayerName": "purple galaxy",
+  "keywords": ["theme","purple","galaxy"],
+  "publisher": "kiro-tagama",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "purple galaxy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/purple-galaxy-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package":"vsce package --no-yarn",
+    "publish":"vsce publish --no-yarn"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "vsce": "^2.7.0"
+  }
+}
