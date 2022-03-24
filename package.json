@@ -2,6 +2,7 @@
   "name": "purple-galaxy-theme",
   "description": "dark theme",
   "displayerName": "purple galaxy",
+  "icon": "assets/img.png",
   "keywords": ["theme","purple","galaxy"],
   "publisher": "kiro-tagama",
   "engines": {
@@ -21,7 +22,7 @@
     "package":"vsce package --no-yarn",
     "publish":"vsce publish --no-yarn"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "devDependencies": {
     "vsce": "^2.7.0"
